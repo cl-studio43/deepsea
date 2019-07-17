@@ -1,0 +1,66 @@
+.gps {
+    background-color:#12436A; 
+    background-position:center;
+}
+.GPSnTime{
+    display: flex;
+    flex-wrap: wrap;
+    height: 50vh;
+    justify-content: space-between;
+}
+.GPSBlock{
+    width: 50%;
+    height: 100%;
+    padding: 0 40px;
+}
+.timeTableBlock{
+    width: 50%;
+    height: 100%;
+    padding: 0 40px;
+}
+.timeTable{
+    width: fit-content;
+}
+
+.programnews{
+    background-color: #2f6c8f;
+    opacity: 0.95;
+    border-radius: 14px;
+    color:#FFF;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: baseline;
+    margin: 30px 0;
+  }
+  .ant-btn{
+    font-weight: 400 !important;
+    border: unset !important;
+    height: 40px !important;
+    padding: 0 30px !important;
+    font-size: 20px !important;
+    border-radius: 14px !important;
+    color: #12436a !important;
+    background-color: #fff !important;
+    line-height: 24px !important;
+  }
+@media (max-width: 768px) {
+    .GPSnTime{
+        display: flex;
+        flex-flow: column;
+        height: 80vh;
+        justify-content: center;
+        padding: 0 20px;
+    }
+    .GPSBlock{
+        width: 100%;
+        height: 60%;
+
+    }
+    .timeTableBlock{
+        width: 100%;
+
+
+    }
+
+  }

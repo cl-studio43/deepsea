@@ -1,0 +1,70 @@
+.videolistBG{
+    margin:0px;
+    padding:0px;
+    background:#fff url("../images/videoListBG.jpg") center center no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.slick-slide{
+    padding: 10px;
+}
+.slider{
+    margin: 0px 20px;
+}
+.slick-prev:before, .slick-next:before{
+    display:none;
+}
+
+/* .slick-prev:before,.slick-next:before{
+    color: rgba(12,12,12,0.8);
+} */
+
+.slick-prev, .slick-next{
+    font-size: 25px;
+}
+.ant-modal-content{
+    background-color:unset !important
+}
+.ant-modal-close-x{
+    font-size: 18px !important
+}
+.anticon{
+    color:#FFF !important
+}
+.ant-modal-content{
+    padding: 5vh 0 !important;
+}
+.ant-modal{
+    top:unset !important;
+}
+.videolistContainer{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.videolistContainer iframe, .videolistContainer object, .videolistContainer embed {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+}
+.ant-modal-mask{
+    background-color: rgba(0, 0, 0, 0.85) !important;
+}
+
+@media (max-width: 480px) {
+    .slick-list{
+        padding: 0 !important;
+    }
+    .videolistContainer iframe, .videolistContainer object, .videolistContainer embed {
+        width: 100%;
+        height: 100%;
+    }
+    .videolistContainer{
+        padding-top: 0px;
+    }
+
+}

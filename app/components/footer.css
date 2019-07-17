@@ -1,0 +1,128 @@
+.footerBG{
+    margin:0px;
+    padding:0px;
+    background:#fff url("../images/footerBG.jpg") center center no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.footerBlock{
+    /* height: 70vh; */
+    width: 65%;
+    margin: 0 auto;
+    color: #12436a;
+}
+
+.footerTitle{
+    text-align: center;
+}
+.logoArea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sectionArea{
+    color: #12436a;
+    font-weight: bold;
+    line-height: 14px;
+    padding: 10px;
+}
+.imgFrame{
+    width: 15vw;
+    padding: 0 15px;
+}
+.imgFrameN{
+    width: 15%;
+    padding: 0 15px;
+}
+
+.seperateLine{
+    border-bottom: 1px solid #88CAD0;
+}
+
+.dataProvider{
+    display: flex;
+    justify-content: space-between;
+}
+
+.web{
+    display:block
+  }
+
+@media (max-width: 992px) and (min-width: 550px) {
+    .phone{
+      display:block
+    }
+    .web{
+      display:none
+    }
+    .footerBlock{
+        width: 80%;
+    }
+    .logoArea{
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+    .imgFrameN {
+        width: 17%;
+    }
+    .imgFrame {
+        width: 17vw;
+    }
+    .iconRow{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .dataProvider {
+        flex-flow: column wrap;
+    }
+    .department{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        text-align: center;
+    }
+    .sectionArea{
+        text-align: center;
+    }
+  }
+
+@media (max-width: 550px) {
+    .phone{
+      display:block
+    }
+    .web{
+      display:none
+    }
+    .footerBlock{
+        width: 80%;
+    }
+    .logoArea{
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+    .imgFrameN {
+        width: 30%;
+    }
+    .imgFrame {
+        width: 30vw;
+    }
+    .iconRow{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .dataProvider {
+        flex-flow: column wrap;
+    }
+    .department{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        text-align: center;
+    }
+    .sectionArea{
+        text-align: center;
+    }
+}

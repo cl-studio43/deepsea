@@ -1,0 +1,131 @@
+.guesscard{
+    background-color: #12436a; 
+    background-position:center;
+}
+.info{
+    color:#fff !important;
+    margin: 20px 5em;
+    padding: 10px 40px;
+    text-align: center;
+}
+.card{
+    border: unset !important;
+    position: relative;
+    width: 270px;
+    float:left;
+    margin: 10px;
+  }
+  img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .text-center{
+    color: #fff;
+  }
+  .keyWords{
+    color: #fff;
+  }
+  .contents{
+    padding: 10px 10px;
+    font-size: 16px;
+    margin: 0;
+  }
+.slick-prev:before, .slick-next:before{
+    display:none;
+}
+
+/* .slick-prev:before,.slick-next:before{
+    color: rgba(12,12,12,0.8);
+} */
+
+.slick-prev, .slick-next{
+    font-size: 25px;
+}
+
+.ant-modal-content{
+    background-color:unset !important
+}
+.ant-modal-close-x{
+    font-size: 18px !important
+}
+.anticon{
+    color:#FFF !important
+}
+.modalIframe{
+    width: 100% !important;
+    height: 90vh !important;
+}
+.ant-modal-content{
+    padding: 5vh 0 !important;
+}
+.ant-modal{
+    top:unset !important;
+}
+
+.modalIImg{
+  max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    /* position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;   */
+    margin: auto;
+}
+
+.modalIframe{
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.modalIframe img {
+  position: absolute;
+  width: 70%;
+  height: 70%;
+}
+
+.phone{
+  display:none
+}
+
+div.ant-modal-wrap > div > div.ant-modal-content > button{
+  position: fixed !important;
+  right: 15px !important;
+}
+
+
+@media (max-width: 768px) {
+  .phone{
+    display:block
+  }
+  .info{
+    margin: 0 auto !important;
+}
+  .web{
+    display:none
+  }
+  .modalIframe img {
+    width: unset;
+    height: unset;
+  }
+}
+
+@media (max-width: 480px) {
+  .slick-list{
+      padding: 0 !important;
+  }
+  .modalIframe img {
+    width: unset;
+    height: unset;
+  }
+  .modalIImg{
+    position: absolute; 
+  }
+}

@@ -1,0 +1,54 @@
+.aboutBG{
+    margin:0px;
+    padding:0px;
+    background:
+    linear-gradient(to right, rgba(18, 67, 106, 0.5),  rgba(255, 255, 255, 0)),
+      #fff url("../images/AboutBG.jpg") center center no-repeat;
+      
+    background-size: cover;
+    color: #fff;
+}
+.wordBlockPhone{
+    height: 80%;
+    width: 90%;
+    padding: 15px;
+    margin: 0 auto;
+}
+.aboutTitle{
+    color:#fff !important;
+    margin-bottom: 10px;
+}
+.paragraph1{
+    font-size: 18px;
+    margin-top:60px;
+}
+.paragraph2{
+    font-size: 18px;
+    margin-top:20px;
+}
+.wordBlockWeb{
+    height: 80%;
+    width: 60%;
+    padding: 30px;
+}
+
+.phone{
+    display:none
+  }
+
+@media (max-width: 768px) and (min-width: 550px) {
+    .phone{
+      display:block
+    }
+    .web{
+      display:none
+    }
+  }
+
+@media (max-width: 550px) {
+  .aboutTitle {
+    color: #fff !important;
+    margin-bottom: unset;
+    line-height: 1.5;
+  }
+}
