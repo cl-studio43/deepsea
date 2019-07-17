@@ -141,7 +141,7 @@
   display: block;
   left: 20%;
   margin-left: -50px;
-  width: 400px;
+  width: 450px;
   z-index: 1;
   box-sizing: border-box;
   transition: all 0.5s ease;
@@ -180,6 +180,7 @@
   .title{
     left: 25%;
     margin-left: 0;
+    width: 400px;
   }
  .arrow{
   left: 25%;
